@@ -1,83 +1,48 @@
-# Hi there! 👋 I'm Rongxuan Zhou
-Welcome to my GitHub profile!I'm a passionate robotics enthusiast with background in **AI integration**, **hardware monitoring systems**, and **machine learning**. My work focuses on bridging cutting-edge AI technologies with robotics and industrial applications..
-<div align="center">
-    <img src="https://cultofthepartyparrot.com/parrots/hd/githubparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/flags/hd/iranparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/asyncparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/60fpsparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/jumpingparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/opensourceparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/dealwithitnowparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotlight.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/databaseparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/fixparrot.gif" width="36" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/laptop_parrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/spinningparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/levitationparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/meldparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/slomoparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/moonwalkingparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/stableparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/scienceparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/pirateparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/footballparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/illuminatiparrot.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/hypnoparrotdark.gif" width="25" height="25"/>
-    <img src="https://cultofthepartyparrot.com/parrots/hd/mustacheparrot.gif" width="25" height="25"/>
-</div>
+# Hi, I'm Rongxuan Zhou 👋
 
-<table align="center" width="100%">
-<!--     <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=TixiaoShan&show_icons=true&hide_title=truelayout=compact&title_color=007bff&text_color=e7e7e7&icon_color=007bff&bg_color=171c28">
-          </td> -->
-<!--     <td align="center">
-      <img src="https://github-readme-streak-stats.herokuapp.com/?user=TixiaoShan&theme=radical">
-    </td> -->
-  </tr>
-</table>
+Robotics engineer and researcher working across the full stack: **learning-based manipulation policies, real-time control, and production robotic systems**. I build and deploy policies end-to-end on Franka, UR, and humanoid hardware.
+
+M.S. Robotics @ Northeastern University (CRAFT Lab, advised by Prof. Yang Ye) · Boston, MA
+🌐 [Portfolio](https://rongxuan-zhou.github.io/) · 💼 [LinkedIn](https://www.linkedin.com/in/rongxuan-zhou-aa4a8b32a/) · 📧 zhou.rongx@northeastern.edu
 
 ---
 
-## 🚀 **About Me**
+## 🔬 What I work on
 
-- 🎓 **Education**:  
-  - **Master's in Robotics** (in progress) at Northeastern University, Boston.  
-  - **Bachelor's in Mechanical Engineering** at Northeastern University, China.  
+**World models & manipulation policies.** Modality-robust JEPA world models that stay reliable when a sensor disappears at deployment, diagnostics for how latent models compress actions, and training-free safety layers for diffusion policies.
 
-- 💻 **Professional Experience**:  
-  I've worked on cutting-edge projects involving **computer vision**, **UAV tracking**, and **collaborative robotics** at leading organizations like **Shanghai Jiaotong University**, **CloudMinds Robotics**, and **NIO. Automobile**. My expertise includes crafting solutions for challenges in robotics sensing, autonomous systems, and robot communication frameworks..
+**Real-robot systems.** Teleoperation rigs (Meta Quest 3 / WebXR → 1 kHz Cartesian-impedance control), open-source demonstration datasets, and closed-loop deployment with sampling-based planning on Franka FR3 and UR5e.
 
-- 🌟 **Key Achievements**:  
-  - Designed a **centroid search algorithm** that enhanced data reliability and reduced processing time by 30%.  
-  - Improved motion accuracy in robotics systems by integrating **high-precision sensors** and developing **adaptive control algorithms**.  
-  - Published findings on **residual stress analysis** in **Journal of Physics** and presented at international conferences.
+**Production robotics.** Before graduate school I shipped industrial systems: a machine-vision inspection line running at 85K+ units/day for TI semiconductor parts, EtherCAT real-time control stacks, and sim-to-real transfer validated on production vehicles.
 
 ---
 
-## 🛠️ **Skills**
+## 📄 Selected work
 
-- **Programming**: Python, C++, C, Java, R, SQL, MATLAB, ROS.  
-- **Machine Learning & AI**: TensorFlow, PyTorch, OpenCV, YOLO, Edge AI Optimization.  
-- **Hardware & Simulation**: SolidWorks, AutoCAD, CATIA, ANSYS, Finite Element Analysis (FEA).  
-- **Languages**: Fluent in English, Chinese; Proficient in German and Japanese.  
+| Project | What it is |
+|---|---|
+| **ForceLeWM** | JEPA world model with gated force fusion that survives a missing force sensor at test time · *RA-L 2026, under review* |
+| **Action-Compression Anisotropy** | Jacobian-based protocol that finds a world model's action blind spots, plus a training-free fix · *arXiv 2026* |
+| **TACS** | Control-barrier-function guidance inside a diffusion policy's denoising loop, 20× fewer constraint violations, no retraining · *RA-L 2026, under review* |
+| **PRISM** | Prior-guided sampling for world-model planning; I built the teleoperation stack and the open-sourced PushT dataset · *[arXiv](https://arxiv.org/pdf/2606.07974) · [site](https://yuhaiw.github.io/PRISM_web/)* |
+| **TOIF** | Terrain-aware hierarchical humanoid navigation with proprioceptive feedback · *Humanoids 2026, under review* |
 
----
-
-## 📈 **Current Focus**
-
-I'm currently pursuing advancements in **AI-driven robotics**, **sensor fusion**, and **autonomous systems**. My work includes exploring state-of-the-art NLP models, computer vision techniques, and real-time control systems.
-
----
-
-## 🌱 **What I'm Learning**
-
-- **Reinforcement Learning** for optimizing autonomous system control.  
-- **Transformer-based computer vision models** for industrial applications..  
-- **Advanced robot communication protocols** to improve scalability and reliability.
+Full list with abstracts and demo videos on my [portfolio](https://rongxuan-zhou.github.io/).
 
 ---
 
-## 📫 **Connect with Me**
+## 🧰 Repositories worth a look
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/rongxuan-zhou-aa4a8b32a/)  
-- 📧 Email: zhou.rongx@northeastern.edu  
+- **[mujoco-mcp-server](https://github.com/Rongxuan-Zhou/mujoco-mcp-server)** — 65-tool MCP server letting LLM agents drive MuJoCo from natural language: trajectory optimization (iLQR, MPPI), IK, domain randomization, and RL envs across 50+ Menagerie robots.
+- **[AOI-sys-for-TI](https://github.com/Rongxuan-Zhou/AOI-sys-for-TI)** — Production automated optical inspection system for semiconductor parts: C++17/OpenCV vision pipeline, IEC 61131-3 PLC control, and SCARA material handling.
+- **[multi-robot-assembly-cell](https://github.com/Rongxuan-Zhou/multi-robot-assembly-cell)** — Multi-robot assembly cell for harmonic-reducer production: EtherCAT real-time control, CODESYS soft PLC, 3-robot turntable workstation.
+- **[FAST_LIO_Loop_Closure_Test_On_NUANCE](https://github.com/Rongxuan-Zhou/FAST_LIO_Loop_Closure_Test_On_NUANCE)** — LiDAR-inertial SLAM benchmarking on Northeastern's autonomous vehicle platform.
+- Datasets on 🤗 [Hugging Face](https://huggingface.co/Rongxuan-Zhou) — real-robot teleoperation demonstrations for world-model training.
+
+---
+
+## 🛠️ Tools
+
+`Python` `PyTorch` `C/C++` `CUDA` `ROS 2` `MuJoCo` `Isaac Lab` `MoveIt` `Docker` `Linux`
+`Diffusion Policy` `JEPA World Models` `Imitation Learning` `RL` `MPPI / MPC` `Control Barrier Functions`
+`Franka FR3` `UR5e` `Unitree` `EtherCAT` `STM32` `Jetson` `SolidWorks` `ANSYS`
