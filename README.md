@@ -1,6 +1,6 @@
 # Hi, I'm Rongxuan Zhou 👋
 
-Robotics engineer and researcher working across the full stack: **learning-based manipulation policies, real-time control, and production robotic systems**.
+**TL;DR** — Robotics engineer and researcher working across the full stack: **learning-based manipulation policies, real-time control, and production robotic systems**.
 
 I am currently a graduate research assistant at the [CRAFT Lab](https://gilbert-yangye.github.io/), Northeastern University, advised by [Prof. Yang Ye](https://scholar.google.com/citations?hl=en&user=xCMKpr0AAAAJ&view_op=list_works&sortby=pubdate). My research focuses on safe, physically-grounded robot manipulation — building learned policies that respect safety constraints and genuinely exploit the sensory inputs they are given.
 
